@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap');
+
+
+
+h1, h2, h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Roboto Mono";
+  font-size: 1em;
+  letter-spacing: 0;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+#press-placeholder {
+  font-family: "Playfair Display";
+  font-size: 2em;
+}
+
+#title {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.link-item {
+  font-size: .8em;
+}
+
+.menu-item {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.4em;
+  font-weight: 700;
+}
+
+.active {
+  font-family: "Montserrat", sans-serif;
+  font-size: 7.8em;
+  font-weight: 700;
+}
+
+.menu-music-item {
+  font-family: "Montserrat", sans-serif;
+  font-size: .8em;
+  font-weight: 700;
+}
+
+.menu-about-item {
+  font-family: "Montserrat", sans-serif;
+  font-size: .8em;
+  font-weight: 700;
+}
+
+.menu-press-item {
+  font-family: "Montserrat", sans-serif;
+  font-size: .8em;
+  font-weight: 700;
+}
+
+.member-name {
+  font-size: 2.4em;
+}
+
+.member-social {
+  font-size: 1.8em;
+}

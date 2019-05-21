@@ -1,0 +1,60 @@
+.black {
+  color: white;
+  background-color: black;
+}
+ a {
+   color: black;
+ }
+
+
+.menu-item {
+  color: gray;
+}
+
+.active {
+  color: white;
+}
+
+.menu-press-item a {
+  color: white;
+  background-color: black;
+}
+
+.menu-music-item a {
+  color: black;
+  background-color: white;
+}
+
+.albums {
+  margin-bottom: 8vh;
+}
+
+.menu-about-item a {
+  color: white;
+  background-color: black;
+}
+
+.member-social:hover {
+  color: #00b894;
+}
+
+hr {
+  color: #bdc3c7;
+}
+
+
+/* .fa-apple {
+  color: #ea1d5d;
+} */
+
+/* .fa-spotify {
+  color: #1db954;
+}
+
+.fa-soundcloud {
+  color: #ff8800;
+}
+
+.fa-bandcamp {
+  color: #629aa9;
+} */

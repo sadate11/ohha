@@ -1,0 +1,217 @@
+body {
+  width: 100%;
+  margin: auto;
+  /* background-image: url(../assets/bg3.jpg); */
+  background-size: cover;
+}
+
+.container {
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  margin-top: 2vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+hr {
+  width: 70%;
+  margin: 0;
+  border: 1px dashed;
+}
+
+#title {
+  cursor: pointer;
+}
+
+.social-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.link-item {
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 100%;
+  text-align: center;
+  padding: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.menu {
+  margin-top: 12vh;
+  display: grid;
+  grid-template-columns: 40% 1fr;
+}
+
+.menu-links {
+  display: flex;
+  align-items: center;
+}
+
+.menu-img {
+  border-radius: 20px;
+}
+
+.menu-img:hover .img-box {
+  transform: scale(1.1);
+  transition: all .3s;
+}
+
+.menu-top {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.menu-music-item {
+  display: inline;
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+.menu-about-item {
+  display: inline;
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+.menu-press-item {
+  display: inline;
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+.band-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 10vh;
+}
+
+.albums {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 12vh;
+  cursor: pointer;
+}
+
+.album-box {
+  width: 100%;
+}
+
+.album-img:hover {
+  transform: scale(1.1);
+  transition: all .3s;
+}
+
+.band-img {
+  width: 70%;
+  margin-bottom: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: e-resize;
+}
+
+.band-img:hover {
+  transform: scale(1.2);
+  transition: all .3s;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.img-box {
+  width: 100%;
+  /* height: 100%; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-item {
+  cursor: pointer;
+}
+
+#about-img {
+  display: none;
+}
+
+#press-img {
+  display: none;
+}
+
+ul {
+  padding: 0;
+}
+
+.menu-item {
+  list-style-type: none;
+  cursor: pointer;
+  margin-bottom: 1vh;
+}
+
+#press-placeholder {
+  text-align: center;
+  margin-top: 25%;
+}
+
+.member-social {
+  list-style-type: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.track {
+  display: flex;
+  align-items: center;
+}
+
+.track-img {
+  width: 40px;
+  height: 40px;
+}
+
+.track-title {
+  display: inline;
+  margin-left: 20px;
+  margin-right: 20px;
+  letter-spacing: .5px;
+}
+
+.member-name {
+  margin-top: 12vh;
+  margin-bottom: 2vh;
+}
+
+.listen-platform {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* #music-list-one {
+  display: none;
+}
+
+#music-list-two {
+  display: none;
+} */
+
+
+/* .menu-item:hover {
+  text-decoration: underline;
+} */
