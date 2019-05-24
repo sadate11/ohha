@@ -17,11 +17,6 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
-hr {
-  width: 70%;
-  margin: 0;
-  border: 1px dashed;
-}
 
 #title {
   cursor: pointer;
@@ -48,7 +43,7 @@ hr {
 .menu {
   margin-top: 12vh;
   display: grid;
-  grid-template-columns: 40% 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .menu-links {
@@ -60,10 +55,10 @@ hr {
   border-radius: 20px;
 }
 
-.menu-img:hover .img-box {
+/* .menu-img:hover .img-box {
   transform: scale(1.1);
   transition: all .3s;
-}
+} */
 
 .menu-top {
   display: flex;
@@ -102,26 +97,51 @@ hr {
   cursor: pointer;
 }
 
+/* .member-info {
+  display: none;
+} */
+
 .album-box {
   width: 100%;
 }
 
+.album-img {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .album-img:hover {
-  transform: scale(1.1);
+  transform: scale(1.4);
   transition: all .3s;
 }
 
+.embed-title {
+  text-align: center;
+  margin-bottom: 4vh;
+  margin-top: 2vh;
+}
+
+
+
 .band-img {
   width: 70%;
-  margin-bottom: 75px;
+  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
   cursor: e-resize;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 .band-img:hover {
   transform: scale(1.2);
   transition: all .3s;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+
 }
 
 a {
@@ -158,10 +178,19 @@ ul {
   padding: 0;
 }
 
+.active {
+  padding: 0;
+}
+
 .menu-item {
   list-style-type: none;
   cursor: pointer;
   margin-bottom: 1vh;
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  margin: 0;
+
 }
 
 #press-placeholder {
@@ -201,6 +230,11 @@ ul {
 .listen-platform {
   margin-right: 10px;
   cursor: pointer;
+}
+
+.music-list {
+  text-align: center;
+  display: none;
 }
 
 /* #music-list-one {

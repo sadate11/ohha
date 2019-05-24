@@ -18,7 +18,7 @@
     <div class="menu-top">
       <ul>
         <li class="menu-music-item"><a href="index.html">HOME</a></li>
-        <li class="menu-music-item"><a href="about.html">THE BAND</a></li>
+        <li class="menu-music-item"><a href="about.html">BAND</a></li>
         <li class="menu-music-item"><a href="press.html">PRESS</a></li>
 
       </ul>
@@ -29,48 +29,12 @@
 
 	<div class="albums">
 		<div class="album-box" id="album-one">
-			<div class="album-img">
-				<img src="assets/c1.png" alt="album cover" onclick="myFunction()">
+			<div class="album-img" onclick="showPlaylistOne()">
+				<img src="assets/c1.png" alt="album cover" >
 			</div>
 			<div class="music-list" id="music-list-one">
-				<h3>LISTEN TO ALBUM</h3>
-				<div class="track">
-					<img src="assets/vc1.png" alt="vinyl" class="track-img">
-					<p class="track-title">01 This is not the end</p>
-					<p class="listen-platform"><i class="fab fa-apple"></i></p>
-					<p class="listen-platform"><i class="fab fa-bandcamp"></i></p>
-					<a href="https://open.spotify.com/track/6CVXBVQ74lReZsYEj7Gouz?si=VBAqEnccSNS10HFJF-V4rA" target="
-					"><p class="listen-platform"><i class="fab fa-spotify"></i></p></a>
-					<p class="listen-platform"><i class="fab fa-soundcloud"></i></p>
-				</div>
-				<hr>
-				<div class="track">
-					<img src="assets/vc1.png" alt="vinyl" class="track-img">
-					<p class="track-title">02 Insignificant numbers</p>
-					<p class="listen-platform"><i class="fab fa-apple"></i></p>
-					<p class="listen-platform"><i class="fab fa-bandcamp"></i></p>
-					<p class="listen-platform"><i class="fab fa-spotify"></i></p>
-					<p class="listen-platform"><i class="fab fa-soundcloud"></i></p>
-				</div>
-				<hr>
-				<div class="track">
-					<img src="assets/vc1.png" alt="vinyl" class="track-img">
-					<p class="track-title"> 03 The fog of war</p>
-					<p class="listen-platform"><i class="fab fa-apple"></i></p>
-					<p class="listen-platform"><i class="fab fa-bandcamp"></i></p>
-					<p class="listen-platform"><i class="fab fa-spotify"></i></p>
-					<p class="listen-platform"><i class="fab fa-soundcloud"></i></p>
-				</div>
-				<hr>
-				<div class="track">
-					<img src="assets/vc1.png" alt="vinyl" class="track-img">
-					<p class="track-title">04 What was once</p>
-					<p class="listen-platform"><i class="fab fa-apple"></i></p>
-					<p class="listen-platform"><i class="fab fa-bandcamp"></i></p>
-					<p class="listen-platform"><i class="fab fa-spotify"></i></p>
-					<p class="listen-platform"><i class="fab fa-soundcloud"></i></p>
-				</div>
-				<hr>
+				<h3 class="embed-title">LISTEN TO ALBUM</h3>
+				<iframe src="https://open.spotify.com/embed/album/6cWywoMIIljljIZQ4KEFkk" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media" class="spotify-box"></iframe>
 
 			</div>
 
@@ -78,46 +42,11 @@
 
 		<div class="album-box" id="album-two">
 			<div class="album-img">
-				<img src="assets/c2.png" alt="album cover">
+				<img src="assets/c2.png" alt="album cover" onclick="showPlaylistTwo()">
 			</div>
 			<div class="music-list" id="music-list-two">
-				<h3>LISTEN TO ALBUM</h3>
-				<div class="track">
-					<img src="assets/vc2.png" alt="vinyl" class="track-img">
-					<p class="track-title">01 Ellipse</p>
-					<p class="listen-platform"><i class="fab fa-apple"></i></p>
-					<p class="listen-platform"><i class="fab fa-bandcamp"></i></p>
-					<p class="listen-platform"><i class="fab fa-spotify"></i></p>
-					<p class="listen-platform"><i class="fab fa-soundcloud"></i></p>
-				</div>
-				<hr>
-				<div class="track">
-					<img src="assets/vc2.png" alt="vinyl" class="track-img">
-					<p class="track-title">02 Mirage</p>
-					<p class="listen-platform"><i class="fab fa-apple"></i></p>
-					<p class="listen-platform"><i class="fab fa-bandcamp"></i></p>
-					<p class="listen-platform"><i class="fab fa-spotify"></i></p>
-					<p class="listen-platform"><i class="fab fa-soundcloud"></i></p>
-				</div>
-				<hr>
-				<div class="track">
-					<img src="assets/vc2.png" alt="vinyl" class="track-img">
-					<p class="track-title"> 03 Holding Rivers</p>
-					<p class="listen-platform"><i class="fab fa-apple"></i></p>
-					<p class="listen-platform"><i class="fab fa-bandcamp"></i></p>
-					<p class="listen-platform"><i class="fab fa-spotify"></i></p>
-					<p class="listen-platform"><i class="fab fa-soundcloud"></i></p>
-				</div>
-				<hr>
-				<div class="track">
-					<img src="assets/vc2.png" alt="vinyl" class="track-img">
-					<p class="track-title">04 Drones</p>
-					<p class="listen-platform"><i class="fab fa-apple"></i></p>
-					<p class="listen-platform"><i class="fab fa-bandcamp"></i></p>
-					<p class="listen-platform"><i class="fab fa-spotify"></i></p>
-					<p class="listen-platform"><i class="fab fa-soundcloud"></i></p>
-				</div>
-				<hr>
+				<h3 class="embed-title">LISTEN TO ALBUM</h3>
+				<iframe src="https://open.spotify.com/embed/album/2lAFeBriKxg2zCxO4PYZWY" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media" class="spotify-box"></iframe>
 
 			</div>
 
@@ -126,4 +55,7 @@
 	</div>
 
 
-</div>
+		</div>
+
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>

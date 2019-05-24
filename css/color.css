@@ -8,12 +8,17 @@
 
 
 .menu-item {
-  color: gray;
+  color: white;
+}
+
+.menu-item:hover {
+  color: #fc636b;
 }
 
 .active {
-  color: white;
+  color: #fc636b;
 }
+
 
 .menu-press-item a {
   color: white;
@@ -35,7 +40,7 @@
 }
 
 .member-social:hover {
-  color: #00b894;
+  color: #fc636b;
 }
 
 hr {
