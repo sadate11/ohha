@@ -83,6 +83,17 @@
   display: none;
   }
 
+  .albums {
+    grid-template-columns: 1fr;
+  }
+
+  .album-img {
+    width: 100%;
+
+  }
+
+  
+
 
 
 
