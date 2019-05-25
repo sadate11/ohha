@@ -39,6 +39,21 @@ h3 {
   font-weight: 700;
 }
 
+.fa-arrow-up {
+  font-size: .5em;
+  transform: rotate(45deg);
+}
+
+.press-menu {
+  font-family: "Montserrat";
+  font-size: 4em;
+  font-weight: 600;
+}
+
+.press-menu:hover {
+  text-decoration: line-through;
+}
+
 .menu-item:hover {
   text-decoration: underline;
 }
@@ -54,6 +69,18 @@ h3 {
   font-family: "Montserrat";
   font-size: .8em;
   font-weight: 700;
+}
+
+.menu-press-item:hover {
+  text-decoration: underline;
+}
+
+.menu-about-item:hover {
+  text-decoration: underline;
+}
+
+.menu-music-item:hover {
+  text-decoration: underline;
 }
 
 .menu-about-item {

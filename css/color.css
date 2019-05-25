@@ -21,9 +21,11 @@
 
 
 .menu-press-item a {
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
 }
+
+
 
 .menu-music-item a {
   color: black;
@@ -45,6 +47,11 @@
 
 hr {
   color: #bdc3c7;
+}
+
+.press-menu {
+  text-align: center;
+  list-style-type: none;
 }
 
 
