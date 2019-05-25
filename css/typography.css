@@ -29,8 +29,12 @@ h3 {
   font-weight: 700;
 }
 
-.link-item {
+.link-item-mobile {
   font-size: 1em;
+}
+
+.link-item {
+  font-size: .8em;
 }
 
 .menu-item {

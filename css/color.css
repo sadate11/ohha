@@ -61,7 +61,7 @@ hr {
     color: white;
   }
 
-  .link-item {
+  .link-item-mobile {
     color: black;
     background-color: white;
 
@@ -69,7 +69,7 @@ hr {
 }
 
 @media (max-width: 900px) {
-  .link-item {
+  .link-item-mobile {
     color: black;
     background-color: white;
 
