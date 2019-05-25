@@ -9,7 +9,26 @@
   }
 
   .header {
+    grid-template-columns: 1fr;
+  }
+
+  #desktop-logo-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2vh;
+  }
+
+  #title {
     display: none;
+  }
+
+  .social-links {
+    display: none;
+  }
+
+  .menu-top {
+    justify-content: center;
   }
 
   .logo {
@@ -51,10 +70,9 @@
 
   .social-links-mobile {
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-top: 4vh;
-    margin-bottom: 4vh;
+    justify-content: center;
+    margin-top: 6vh;
+    bottom: 1vh;
 
   }
 
@@ -63,7 +81,7 @@
   }
 
   .band-img {
-    margin-bottom: 1vh;
+    margin-bottom: 2vh;
   }
 
   .member-name {
@@ -92,7 +110,7 @@
 
   }
 
-  
+
 
 
 
