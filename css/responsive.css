@@ -71,6 +71,7 @@
   .social-links-mobile {
     display: flex;
     margin-top: 8vh;
+    justify-content: center;
 
   }
 
@@ -116,7 +117,7 @@
   .link-item {
     width: 25px;
     height: 25px;
-    margin-left: 5px;
+    margin-left: 10px;
     border: none;
     border-radius: 100%;
     text-align: center;
