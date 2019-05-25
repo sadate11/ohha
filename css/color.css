@@ -54,6 +54,13 @@ hr {
   list-style-type: none;
 }
 
+@media (max-width: 599px) {
+
+  .active {
+    color: white;
+  }
+}
+
 
 /* .fa-apple {
   color: #ea1d5d;

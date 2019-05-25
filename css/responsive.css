@@ -19,10 +19,14 @@
 
   .menu {
     grid-template-columns: 1fr;
-    margin-top: 6vh;
+    margin-top: 40%;
   }
 
-  .menu-links {
+  .menu-item {
+    float: left;
+  }
+
+  .menu-img {
     display: none;
   }
 
@@ -54,12 +58,7 @@
 
   }
 
-  .img-title {
-    display: inline;
-    position: absolute;
-    top: 50%;
-    bottom: 50%;
-  }
+
 
 
 }

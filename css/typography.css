@@ -102,3 +102,19 @@ h3 {
 .member-social {
   font-size: 1.8em;
 }
+
+/* Mobile media queries */
+@media (max-width: 599px) {
+  .menu-item {
+    font-family: "Montserrat";
+    font-size: 5em;
+    font-weight: 700;
+  }
+
+  .active {
+    font-family: "Montserrat";
+    font-size: 5em;
+    font-weight: 700;
+    text-decoration: none;
+  }
+}
