@@ -68,6 +68,14 @@ hr {
   }
 }
 
+@media (max-width: 900px) {
+  .link-item {
+    color: black;
+    background-color: white;
+
+  }
+}
+
 
 /* .fa-apple {
   color: #ea1d5d;

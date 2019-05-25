@@ -71,7 +71,7 @@
   .social-links-mobile {
     display: flex;
     margin-top: 8vh;
-    justify-content: center;
+    justify-content: flex-start;
 
   }
 
