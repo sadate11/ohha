@@ -58,6 +58,32 @@
 
   }
 
+  .band-info {
+    grid-template-columns: 1fr;
+  }
+
+  .band-img {
+    margin-bottom: 1vh;
+  }
+
+  .member-name {
+    margin-top: 1vh;
+    text-align: center;
+  }
+
+  .press-menu-wrap {
+    margin-top: 75%;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .member-social {
+  display: none;
+  }
+
+
 
 
 
