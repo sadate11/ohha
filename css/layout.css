@@ -17,6 +17,11 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
+.img-title {
+  display: none;
+
+}
+
 
 #title {
   cursor: pointer;

@@ -54,6 +54,13 @@
 
   }
 
+  .img-title {
+    display: inline;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+  }
+
 
 }
 
