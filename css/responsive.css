@@ -70,9 +70,7 @@
 
   .social-links-mobile {
     display: flex;
-    justify-content: center;
-    margin-top: 6vh;
-    bottom: 1vh;
+    margin-top: 8vh;
 
   }
 
@@ -110,7 +108,22 @@
 
   }
 
+  .album-img:hover {
+    transform: none;
+    transition: all .3s;
+  }
 
+  .link-item {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 100%;
+    text-align: center;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+  }
 
 
 
@@ -124,6 +137,23 @@
 /* Tablet media queries */
 @media (max-width: 900px) {
 
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
 
+.menu-img {
+  display: none;
+}
+
+.album-img {
+  width: 75%;
+}
+
+.album-img:hover {
+  transform: none;
+  transition: all .3s;
+}
 
 }

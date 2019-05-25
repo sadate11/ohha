@@ -30,7 +30,7 @@ h3 {
 }
 
 .link-item {
-  font-size: .8em;
+  font-size: .7em;
 }
 
 .menu-item {
@@ -125,4 +125,15 @@ h3 {
   .member-name {
     font-size: 1.8em;
   }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  .menu-item {
+    font-size: 3.6em;
+  }
+
+  .active {
+    font-size: 7em;
+  }
+
 }
