@@ -129,6 +129,12 @@ h3 {
   .member-name {
     font-size: 1.8em;
   }
+
+  #mobile-title {
+    font-family: "Montserrat";
+    font-size: .8em;
+    font-weight: 700;
+  }
 }
 
 @media (min-width: 900px) and (max-width: 1200px) {
